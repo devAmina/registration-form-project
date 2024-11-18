@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .main-container{
+    display: flex;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 5px 5px #e3e3e3;
+    margin:80px auto;
+    width: 80%;
+    
+}
+.info-container{
+    background-color: #e3e3e3;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+}
+.registration-container{
+    display: flex;
+    margin: 0;
+    width: 50%;
+}
+img{
+    width: 80px;
+    height: 20%;
+    padding-top: 40px;
+    text-align: left;
+}
+p {
+ display: flex;
+ padding: 5px;
+ justify-content: flex-end;
+}
+button{
+    border: none;
+    background-color: #74b3c7d5;
+    color: white;
+    padding: 10px;
+    margin: 10px;;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+  }
+
+form {
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+	padding: 20px;
+    margin: 0;
+    width: 100%;
+} 
+
+.remember-container{
+    display: inline;
+    margin: 10px;
+}
+input[type=text],input[type=email] ,input[type=password]{
+display: flex;
+margin: 10px 0px 0px 0px;
+border:1px solid #dfdcdc;
+border-radius: 5px;
+}
+label{
+    margin: 5px 0px 0px 0px;
+} 
+a {
+    color: #047a9c;
+    text-decoration: underline;
+}
+input[namme=fname]{
+    align-items: left;
+}
+input[namme=lname]{
+    align-items: right;
+}
+.personal-info{
+    display: flex;
+	align-items: left;
+}
+.personal-fname{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.personal-lname{
+    display: flex;
+    flex-direction: column;
+    padding-left:15px;
+    width: 50%;
+}
+@media (max-width:760px) {
+    .main-container{
+        flex-direction: column;
+    }
+    
+    
+}
